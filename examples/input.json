@@ -1,0 +1,7 @@
+{
+  "searchQueries": [
+    "tesco"
+  ],
+  "maxItems": 5,
+  "includeOfficers": true
+}
