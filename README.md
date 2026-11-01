@@ -9,9 +9,10 @@ UK Companies House scraper: search the register and export company profiles, SIC
 
 ## What can it do?
 
+- Daily list of newly incorporated UK companies by SIC code and town: fresh B2B leads for accountants, banks, insurers, web agencies
+- Newly dissolved companies list for credit control, data cleansing and insolvency research
 - B2B lead lists by industry (SIC) and location
 - KYC / due-diligence checks on suppliers
-- Monitoring new incorporations with incremental mode
 - Director network research
 
 ## Data source
@@ -59,6 +60,12 @@ No. A built-in key is used by default. Heavy users can add their own free key fo
 **Is the data official?**
 Yes, it comes straight from the Companies House register.
 
+**How do I get a list of new companies?**
+Set the feed to 'Newly incorporated companies', pick the last N days and optionally SIC codes and a location. Schedule it daily with incremental mode to get only new incorporations.
+
+**Can I get dissolved companies?**
+Yes, set the feed to 'Newly dissolved companies'.
+
 ## Use with AI agents (MCP)
 
 Add `https://mcp.apify.com/?actors=devteamdrew/companies-house-scraper` as an MCP server in Claude, Cursor or any MCP client.
@@ -82,6 +89,8 @@ Browse real sample rows, download a free CSV sample and see ready-made feeds at 
 - [Lemmy Scraper – Posts, Comments & Communities (Fediverse)](https://apify.com/devteamdrew/lemmy-scraper?utm_source=github&utm_medium=readme&utm_campaign=companies-house-scraper&utm_content=more)
 - [SEC EDGAR Scraper – 10-K, 10-Q & 8-K Filings](https://apify.com/devteamdrew/sec-edgar-scraper?utm_source=github&utm_medium=readme&utm_campaign=companies-house-scraper&utm_content=more)
 - [arXiv Scraper – Paper Search, Abstracts & Authors](https://apify.com/devteamdrew/arxiv-scraper?utm_source=github&utm_medium=readme&utm_campaign=companies-house-scraper&utm_content=more)
+- [UK Public Tenders Scraper – Contracts Finder & Find a Tender](https://apify.com/devteamdrew/uk-public-tenders?utm_source=github&utm_medium=readme&utm_campaign=companies-house-scraper&utm_content=more)
+- [CQC Care Homes & Providers Scraper – UK Care Directory Leads](https://apify.com/devteamdrew/uk-cqc-care-providers?utm_source=github&utm_medium=readme&utm_campaign=companies-house-scraper&utm_content=more)
 
 ## License
 
