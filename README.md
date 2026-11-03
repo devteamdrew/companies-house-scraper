@@ -76,7 +76,7 @@ See the [Apify Store page](https://apify.com/devteamdrew/companies-house-scraper
 
 ## Sample data
 
-Browse real sample rows, download a free CSV sample and see ready-made feeds at [rowsift.co.uk](https://rowsift.co.uk/feeds/companies-house-scraper/?utm_source=github&utm_medium=readme&utm_campaign=companies-house-scraper&utm_content=sample-data).
+Browse real sample rows, download a free CSV sample and see ready-made feeds at [rowsift.co.uk](https://rowsift.co.uk/new-companies/?utm_source=github&utm_medium=readme&utm_campaign=companies-house-scraper&utm_content=sample-data).
 
 ## More data actors
 
